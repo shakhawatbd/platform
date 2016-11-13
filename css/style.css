@@ -1,0 +1,242 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h6 {
+    color: #FF6D6D;
+    font-weight: bold;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+/* base css end */
+
+/* header section start */
+.s-header-top {
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.s-video-btn img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    padding: 14px 70px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 35px;;
+}
+
+.btn.btn-primary,
+.btn.btn-primary.active.focus,
+.btn.btn-primary.active:focus,
+.btn.btn-primary.active:hover,
+.btn.btn-primary:active.focus,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active:hover {
+  color: #fff;
+  background-color: #FF6D6D;
+  border-color: #FF6D6D;
+  outline: none;
+  box-shadow: 0px 6px 0px 0px #FF6D6D;
+}
+.s-header-top p{
+    margin-top: 20px;
+}
+/* header section end */
+/* platform section start */
+
+.first-text{
+    color: #fb8686;
+}
+.platform-left{
+    margin-left: 166px;
+    margin-top: 46px;
+}
+/* platform section end */
+/* awesome section start*/
+.t-left{
+    padding-top: 12px;
+}
+.t-mdille{
+    padding-top: 40px;
+    margin-left: 93px;
+}
+.awesone{
+    background-color: #f6f5f3;
+}
+.awesone-in{
+    text-align: center;
+    margin-top: 48px;
+}
+.awesone-footer{
+    float: right;
+}
+/* awesome section end*/
+
+/* client section start */
+.client {
+    background-image: url('../images/fifth_section_background.png');
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.s-client-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.client h3 {
+    color: #fff;
+}
+.s-client-img P {
+    color: #C7C7C8;
+}
+.client ul {
+    margin-top: 150px;
+}
+.client ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.client ul li a {
+
+}
+client ul li a:hover {
+
+}
+/* client section end */
+/* awesome section start */
+.r-section-awesome { background-color: #F6F5F3;}
+.r-section-awesome h6{   
+   padding-top: 65px;
+   margin-bottom: -18px;
+}
+.r-section-awesome h2{
+  padding-top: 0px;
+   padding-bottom: 20px;  
+}
+.r-section-awesome p{
+    color: #858584;
+    padding-bottom: 70px;
+    text-align: justify;
+}
+.r-section-awesome img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: none;
+}
+/* awesome section End */
+
+/* designer section start */
+.designer {
+    background-color: #323969;
+    padding-top: 150px;
+    padding-bottom: 100px ;
+}
+.designer h3 {
+    color: #fff;
+}
+.text-field-one
+{
+    background-color: #464C77;
+    border: 1px solid #999CB4;
+    box-shadow: 1px 1px px 0px #273A71;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: ;
+    width:;
+    margin-top: 50px;
+}
+.designer-btn {
+    padding: 8px 70px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+
+.btn.btn-default,
+.btn.btn-default.active.focus,
+.btn.btn-default.active:focus,
+.btn.btn-default.active:hover,
+.btn.btn-default:active.focus,
+.btn.btn-default:active:focus,
+.btn.btn-default:active:hover {
+  color: #fff;
+  background-color: #FF6D6D;
+  border-color: #FF6D6D;
+  outline: none;
+  box-shadow: 0px 6px 0px 0px #FF6D6D;
+}
+.designer P {
+    margin-top: 100px;
+    color: #858584;
+}
+.
+/* designer section end */
+
+/* tap section start */
+.tap-left {
+    padding-left: -100px;
+}
+.tap h6 {
+    padding-top: 100px;
+}
+/* tap section end */
+
+/*Footer section start*/
+.tf-1{
+    padding-top: 85px;
+    padding-bottom:106px;
+}
+
+/*Footer section end*/
+
+
+
+
+
+@media screen and (max-width: 480px){
+    
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+    
+
+}
+
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
