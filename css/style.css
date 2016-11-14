@@ -6,21 +6,35 @@
 .alignright {
     float: right;
     margin-left: 15px;
+    position: ;
+    margin-top: 10px;
+    position: ;
 }
 .aligncenter {
     display: block;
     margin: 0 auto 15px;
 }
+
+.left-right {
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+
 a:focus { outline: 0 solid }
 img {
     max-width: 100%;
     height: auto;
-}
 
+}
+h2 {
+    color: #282828;
+}
 
 h6 {
     color: #FF6D6D;
     font-weight: bold;
+    position: ;
 }
 html,
 body { height: 100% }
@@ -36,6 +50,8 @@ a:hover { text-decoration: none }
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 100px;
+    display: block;
+    position:  ;
 }
 .s-video-btn img{
     display: block;
@@ -46,7 +62,8 @@ a:hover { text-decoration: none }
     padding: 14px 70px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-top: 35px;;
+    margin-top: 35px;
+
 }
 
 .btn.btn-primary,
@@ -66,37 +83,48 @@ a:hover { text-decoration: none }
     margin-top: 20px;
 }
 /* header section end */
-/* platform section start */
+/* second section start */
+.platform h5 {
+    margin-top: 100px;
+}
 
 .first-text{
     color: #fb8686;
 }
-.platform-left{
-    margin-left: 166px;
-    margin-top: 46px;
-}
-/* platform section end */
-/* awesome section start*/
-.t-left{
-    padding-top: 12px;
-}
-.t-mdille{
-    padding-top: 40px;
-    margin-left: 93px;
-}
-.awesone{
-    background-color: #f6f5f3;
-}
-.awesone-in{
-    text-align: center;
-    margin-top: 48px;
-}
-.awesone-footer{
-    float: right;
-}
-/* awesome section end*/
 
-/* client section start */
+/* second section end */
+/* Third section start*/
+.third {
+    background-image: url(../images/third-bg.png);
+    background-size: cover;
+    background-size: ;
+    padding-top: 160px;
+    padding-bottom: 197px;
+    margin-top: -34px;
+}
+.third img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.third-img img {
+    margin-top: ;
+}
+/* Third section end*/
+
+/* fourth section start */
+.dot-color {
+    color:  #FF6D6D;
+}
+
+
+.tap h6 {
+    padding-top: 100px;
+}
+/* fourth section end */
+
+/* fifth section start */
 .client {
     background-image: url('../images/fifth_section_background.png');
     background-size: cover;
@@ -127,31 +155,37 @@ a:hover { text-decoration: none }
 client ul li a:hover {
 
 }
-/* client section end */
-/* awesome section start */
-.r-section-awesome { background-color: #F6F5F3;}
+/* fifth section end */
+
+/* sixth section start */
+.r-section-awesome { 
+    background-color: #F6F5F3;
+
+}
+
 .r-section-awesome h6{   
    padding-top: 65px;
    margin-bottom: -18px;
 }
+
 .r-section-awesome h2{
-  padding-top: 0px;
-   padding-bottom: 20px;  
+    padding-top: 0px;
+    padding-bottom: 20px;  
 }
+
 .r-section-awesome p{
     color: #858584;
     padding-bottom: 70px;
-    text-align: justify;
 }
+
 .r-section-awesome img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: none;
 }
-/* awesome section End */
+/* sixth section End */
 
-/* designer section start */
+/* seventh section start */
 .designer {
     background-color: #323969;
     padding-top: 150px;
@@ -199,24 +233,44 @@ client ul li a:hover {
     margin-top: 100px;
     color: #858584;
 }
-.
-/* designer section end */
+
+/* seventh section end */
 
 /* tap section start */
-.tap-left {
-    padding-left: -100px;
-}
-.tap h6 {
-    padding-top: 100px;
-}
+
 /* tap section end */
 
 /*Footer section start*/
-.tf-1{
-    padding-top: 85px;
-    padding-bottom:106px;
+.footer-width {
+    width: 100%;
 }
 
+.footer-right-img {
+    background-image: url('../images/footer-right.png');
+    background-size: cover;
+    padding-top: 236px;
+    padding-bottom: ;
+}
+.s-top {
+    padding-top: 50px;
+    padding-bottom: 28px;
+}
+.footer-email
+{
+    background-color: #F6F6F6;
+    border: 1px solid #999CB4;
+    box-shadow: 1px 1px px 0px #999CB4;
+    border-radius: 3px;
+    color: #CBCBCB;
+    font-size: 15px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ftdi {
+    font-size: 1.5em;
+    color: #CBCBCB;
+}
 /*Footer section end*/
 
 
@@ -225,17 +279,51 @@ client ul li a:hover {
 
 @media screen and (max-width: 480px){
     
+/* third section start */
+.third {
+    margin-top: -58px;
+}
+/* third section end */
+
+/* footer section start */
+.left-right {
+    text-align: center;
+}
+/* footer section end */
 
 }
-
 
 @media (min-width: 480px) and (max-width: 768px){
-    
+ 
+/* third section start */
+.third {
+    margin-top: -58px;
+}
+/* third section end */  
+/* seventh section start */
+.designer-btn {
+    padding: 8px 42px;
+}
+/* seventh section end */
+
+/* footer section start */
+.left-right {
+    text-align: center;
+}
+/* footer section end */
+
 
 }
 
+@media (min-width: 768px) and (max-width: 980px){
 
+/* seventh section start */
+.designer-btn {
+    padding: 8px 42px;
+}
+/* seventh section end */
 
+}
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
